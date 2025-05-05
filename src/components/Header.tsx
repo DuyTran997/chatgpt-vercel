@@ -1,3 +1,4 @@
+<img src="https://danviet.ex-cdn.com/files/f1/thumb_w/650/296231569849192448/2022/8/17/516-16607487547031505368891.png" alt="Tào Tháo" width={50} height={50} />
 import logo from "~/icons/logo.svg?raw"
 import ThemeToggle from "./ThemeToggle"
 import { RootStore, loadSession } from "~/store"
