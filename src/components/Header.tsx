@@ -72,7 +72,7 @@ export default function Header() {
                   //href="https://github.com/ourongxing/chatgpt-vercel"
                 >
                   <img
-                    alt="GitHub forks badge"
+                    //alt="GitHub forks badge"
                     //src="https://img.shields.io/github/stars/ourongxing/chatgpt-vercel?logo=github"
                   />
                 </a>
@@ -81,7 +81,7 @@ export default function Header() {
                   //href="https://github.com/ourongxing/chatgpt-vercel/fork"
                 >
                   <img
-                    alt="GitHub forks badge"
+                    //alt="GitHub forks badge"
                     //src="https://img.shields.io/github/forks/ourongxing/chatgpt-vercel?logo=github"
                   />
                 </a>
