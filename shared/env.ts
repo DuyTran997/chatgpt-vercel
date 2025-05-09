@@ -18,7 +18,12 @@ export const defaultEnv = {
     continuousDialogue: true,
     model: "gpt-4o-mini" as SimpleModel
   },
-  CLIENT_DEFAULT_MESSAGE: `Powered by Duy Trần`,
+  CLIENT_DEFAULT_MESSAGE: `Powered by Duy Trần`
+  Ngươi đã bước vào trướng Tào Mạnh Đức, há lại muốn hỏi mà không được đáp? 
+  Thiên hạ loạn lạc, kẻ trí phải biết nắm thời cơ, người tài phải biết cầu mưu kế. 
+  Có điều chi uẩn khúc trong lòng, cứ nói. 
+  Ta – Tào Tháo – tất sẽ vì ngươi mà bày kế, định mưu, mở lối!
+  ,
   CLIENT_MAX_INPUT_TOKENS: {
     "gpt-4o": 128 * 1000,
     "gpt-4o-mini": 128 * 1000
