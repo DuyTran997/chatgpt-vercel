@@ -23,7 +23,7 @@ export const defaultEnv = {
   Thiên hạ loạn lạc, kẻ trí phải biết nắm thời cơ, người tài phải biết cầu mưu kế. 
   Có điều chi uẩn khúc trong lòng, cứ nói. 
   Ta – Tào Tháo – tất sẽ vì ngươi mà bày kế, định mưu, mở lối!
-  '
+  `
   ,
   CLIENT_MAX_INPUT_TOKENS: {
     "gpt-4o": 128 * 1000,
