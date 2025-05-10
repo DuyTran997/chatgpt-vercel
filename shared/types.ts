@@ -6,11 +6,11 @@ export const enum LocalStorageKey {
   PREFIXSESSION = "gpt-session-"
 }
 
-/*export interface ChatMessage {
+export interface ChatMessage {
   role: Role
   content: string
   type?: "default" | "locked" | "temporary"
-}*/
+}
 
 export type Role = "system" | "user" | "assistant" | "error"
 export type SimpleModel = "gpt-4o" | "gpt-4o-mini"
