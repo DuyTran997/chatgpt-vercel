@@ -24,8 +24,8 @@ export interface Prompt {
 export interface Session {
   id: string
   lastVisit: number
-  //messages: ChatMessage[]
-  //settings: SessionSettings
+  messages: ChatMessage[]
+  settings: SessionSettings
 }
 
 export interface Option {
