@@ -62,7 +62,7 @@ export default function SettingAction() {
       <Switch>
         <Match when={actionState.showSetting === "global"}>
           <div class="<sm:max-h-10em max-h-14em overflow-y-auto">
-            <SettingItem icon="i-ri:lock-password-line" label="网站访问密码">
+            <SettingItem icon="i-ri:lock-password-line" label="Nhập Mật Khẩu Trang Web">
               <input
                 type="password"
                 value={store.globalSettings.password}
@@ -90,7 +90,7 @@ export default function SettingAction() {
                 }}
               />
             </SettingItem>
-            <SettingItem icon="i-carbon:keyboard" label="Enter 键发送消息">
+            <SettingItem icon="i-carbon:keyboard" label="Enter Đê Gửi Tin Nhắn">
               <SwitchButton
                 checked={store.globalSettings.enterToSend}
                 onChange={e => {
@@ -110,7 +110,7 @@ export default function SettingAction() {
             <Show when={store.sessionId !== "index"}>
               <SettingItem
                 icon="i-carbon:text-annotation-toggle"
-                label="对话标题"
+                label="Cài Đặt Cuộc Trò Chuyện"
               >
                 <input
                   type="text"
@@ -128,7 +128,7 @@ export default function SettingAction() {
             </Show>
             <SettingItem
               icon="i-carbon:machine-learning-model"
-              label="OpenAI 模型"
+              label="OpenAI Mẫu"
             >
               <Selector
                 class="max-w-150px"
@@ -152,7 +152,7 @@ export default function SettingAction() {
                 ]}
               />
             </SettingItem>
-            <SettingItem icon="i-carbon:data-enrichment" label="思维发散程度">
+            <SettingItem icon="i-carbon:data-enrichment" label="Suy Nghĩ Khác Biệt">
               <div class="flex items-center justify-between w-150px">
                 <input
                   type="range"
@@ -173,7 +173,7 @@ export default function SettingAction() {
                 </span>
               </div>
             </SettingItem>
-            <SettingItem icon="i-carbon:save-image" label="记录对话内容">
+            <SettingItem icon="i-carbon:save-image" label="Ghi Âm Cuộc Trò Chuyện">
               <SwitchButton
                 checked={store.sessionSettings.saveSession}
                 onChange={e => {
@@ -187,7 +187,7 @@ export default function SettingAction() {
             </SettingItem>
             <SettingItem
               icon="i-carbon:3d-curve-auto-colon"
-              label="开启连续对话"
+              label="Bắt Đầu Một Cuộc Trò Chuyện Liên Tục"
             >
               <SwitchButton
                 checked={store.sessionSettings.continuousDialogue}
@@ -213,7 +213,7 @@ export default function SettingAction() {
               )
             }}
             icon="i-carbon:settings"
-            label="全局设置"
+            label="Cài Đặt Chung"
           />
           <ActionItem
             onClick={() => {
@@ -222,7 +222,7 @@ export default function SettingAction() {
               )
             }}
             icon="i-carbon:settings-services"
-            label="对话设置"
+            label="Cài Đặt Hội Thoại"
           />
         </div>
         <Switch
