@@ -181,7 +181,7 @@ export default function ({
             <textarea
               ref={el => setStore("inputRef", el)}
               id="input"
-              placeholder="与 ta 对话吧"
+              placeholder="Hãy viết câu hỏi vào đây!"
               autocomplete="off"
               autocapitalize="off"
               autofocus={false}
