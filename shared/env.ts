@@ -6,8 +6,8 @@ import type { SimpleModel } from "./types"
  */
 export const defaultEnv = {
   CLIENT_GLOBAL_SETTINGS: {
-    //APIKey: "",
-    //password: "",
+    APIKey: "",
+    password: "",
     enterToSend: true
   },
   CLIENT_SESSION_SETTINGS: {
