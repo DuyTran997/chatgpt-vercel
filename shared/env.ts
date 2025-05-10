@@ -25,10 +25,10 @@ export const defaultEnv = {
   Ta – Tào Tháo – tất sẽ vì ngươi mà bày kế, định mưu, mở lối!
   `
   ,
-  /*CLIENT_MAX_INPUT_TOKENS: {
+  CLIENT_MAX_INPUT_TOKENS: {
     "gpt-4o": 128 * 1000,
     "gpt-4o-mini": 128 * 1000
-  } as Record<SimpleModel, number>,*/
+  } as Record<SimpleModel, number>,
   OPENAI_API_BASE_URL: "api.openai.com",
   OPENAI_API_KEY: "",
   TIMEOUT: 30000,
