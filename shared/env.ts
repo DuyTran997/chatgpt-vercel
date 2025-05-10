@@ -9,7 +9,7 @@ export const defaultEnv = {
     APIKey: "",
     password: "",
     enterToSend: true
-  },
+  },*/
   CLIENT_SESSION_SETTINGS: {
     title: "",
     saveSession: true,
@@ -17,7 +17,7 @@ export const defaultEnv = {
     APITemperature: 0.6,
     continuousDialogue: true,
     model: "gpt-4o-mini" as SimpleModel
-  },*/
+  },
   CLIENT_DEFAULT_MESSAGE: `Powered by Duy Trần
   Ngươi đã bước vào trướng Tào Mạnh Đức, há lại muốn hỏi mà không được đáp? 
   Thiên hạ loạn lạc, kẻ trí phải biết nắm thời cơ, người tài phải biết cầu mưu kế. 
