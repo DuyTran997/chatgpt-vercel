@@ -13,8 +13,8 @@ export interface ChatMessage {
 }
 
 //export type Role = "system" | "user" | "assistant" | "error"
-export type SimpleModel = "gpt-4o" | "gpt-4o-mini"
-export type Model = "gpt-4o-mini" | "gpt-4o-2024-08-06"
+//export type SimpleModel = "gpt-4o" | "gpt-4o-mini"
+//export type Model = "gpt-4o-mini" | "gpt-4o-2024-08-06"
 
 export interface Prompt {
   desc: string
