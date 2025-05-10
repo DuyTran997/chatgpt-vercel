@@ -5,11 +5,11 @@ import type { SimpleModel } from "./types"
  * 以 CLIENT_ 开头的变量会暴露给前端
  */
 export const defaultEnv = {
-  /*CLIENT_GLOBAL_SETTINGS: {
-    APIKey: "",
-    password: "",
+  CLIENT_GLOBAL_SETTINGS: {
+    //APIKey: "",
+    //password: "",
     enterToSend: true
-  },*/
+  },
   CLIENT_SESSION_SETTINGS: {
     title: "",
     saveSession: true,
