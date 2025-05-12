@@ -79,14 +79,14 @@ export default function ({
             when={store.inputContentToken}
             fallback={
               <span class="mx-1 text-slate/40">
-                {`有效上下文 Tokens : ${shownTokens(
+                {`Ngữ Cảnh Hơp Lệ Tokens : ${shownTokens(
                   store.contextToken
                 )}/$${store.contextToken$.toFixed(4)}`}
               </span>
             }
           >
             <span class="mx-1 text-slate/40">
-              {`有效上下文+提问 Tokens : ${shownTokens(
+              {`Ngữ Cảnh Hơp Lệ + Đặt Câu Hỏi Tokens : ${shownTokens(
                 store.contextToken + store.inputContentToken
               )}(`}
               <span
