@@ -278,7 +278,7 @@ export default function SettingAction() {
                     ? "i-carbon:checkmark animate-bounce text-red-6 dark:text-red"
                     : "i-carbon:clean"
                 }
-                label={actionState.clearSessionConfirm ? "Chắc chắn" : "Cuộc Trò Chuyện Rõ Ràng"}
+                label={actionState.clearSessionConfirm ? "Chắc chắn Xóa" : "Xóa Cuộc Trò Chuyện Cũ"}
               />
             </div>
           }
