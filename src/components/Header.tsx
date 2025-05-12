@@ -1,4 +1,4 @@
-import logo from "~/icons/CaocaoLogo.png?raw"
+import logo from "~/icons/CaocaoLogo.png"   // ?raw
 import ThemeToggle from "./ThemeToggle"
 import { RootStore, loadSession } from "~/store"
 import { Show, createMemo } from "solid-js"
@@ -45,7 +45,9 @@ export default function Header() {
       >
         <Show
           when={iconTitle().icon}
-          fallback={<div class="w-8em h-8em" innerHTML={logo} />}
+          //fallback={<div class="w-8em h-8em" innerHTML={logo} />}
+          // Fix to use PNJ
+          fallback={<img src={logo} alt="Logo" class="w-8em h-8em" />}
         >
           <div class="text-7em h-1em mb-8">{iconTitle().icon}</div>
         </Show>
