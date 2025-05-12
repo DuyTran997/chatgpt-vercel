@@ -1,4 +1,4 @@
-import logo from "~/icons/Caocao Logo.png?raw"
+import logo from "~/icons/CaocaoLogo.png?raw"
 import ThemeToggle from "./ThemeToggle"
 import { RootStore, loadSession } from "~/store"
 import { Show, createMemo } from "solid-js"
