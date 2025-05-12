@@ -19,7 +19,7 @@ export default function MessageAction({
     <div class="flex absolute items-center justify-between <sm:top--4 <sm:right-0 top-2 right-2 text-sm text-slate-7 dark:text-slate group-hover:opacity-100 group-focus:opacity-100 opacity-0 dark:bg-#292B32 bg-#E7EBF0 rounded">
       <Show when={role === "assistant"}>
         <ActionItem
-          label="复制"
+          label="Sao Chép"
           onClick={() => {
             setCopied(true)
             copy()
@@ -29,10 +29,10 @@ export default function MessageAction({
         />
       </Show>
       <Show when={role === "user"}>
-        <ActionItem label="编辑" onClick={edit} icon={"i-carbon:edit"} />
+        <ActionItem label="Biên Tập" onClick={edit} icon={"i-carbon:edit"} />
       </Show>
-      <ActionItem label="重新回答" onClick={reAnswer} icon={"i-carbon:reset"} />
-      <ActionItem label="删除" onClick={del} icon={"i-carbon:trash-can"} />
+      <ActionItem label="Trả Lời Lại" onClick={reAnswer} icon={"i-carbon:reset"} />
+      <ActionItem label="Xóa Bỏ" onClick={del} icon={"i-carbon:trash-can"} />
     </div>
   )
 }
