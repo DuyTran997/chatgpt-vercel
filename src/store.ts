@@ -271,9 +271,9 @@ export function loadSession(id: string) {
       }))
     if (id !== "index") {
       FZFData.sessionOptions.unshift({
-        title: "回到主对话",
+        title: "Quay Lại Cuộc Trò Chuyện Chính",
         desc:
-          "其实点击顶部 Logo 也可以直接回到主对话。" +
+          "Nhấp vào đầu trang Logo bạn cũng có thể quay lại trực tiếp cuộc trò chuyện chính." +
             seesions
               .find(k => k.id === "index")
               ?.messages.map(k => k.content)
