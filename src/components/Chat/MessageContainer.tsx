@@ -71,7 +71,7 @@ export default function ({
         </TransitionGroup>
       </div>
       <Show
-        when={!store.loading && (store.contextToken || store.inputContentToken)}
+        //when={!store.loading && (store.contextToken || store.inputContentToken)}
       >
         <div class="flex items-center px-1em text-0.8em">
           <hr class="flex-1 border-slate/40" />
