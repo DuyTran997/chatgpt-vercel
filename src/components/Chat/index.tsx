@@ -122,8 +122,8 @@ export default function () {
         if (store.remainingToken < 0) {
           throw new Error(
             store.sessionSettings.continuousDialogue
-              ? "本次对话过长，请清除之前部分对话或者缩短当前提问。"
-              : "当前提问太长了，请缩短。"
+              ? "Cuộc trò chuyện này quá dài. Vui lòng xóa phần trước của cuộc trò chuyện hoặc rút ngắn câu hỏi hiện tại."
+              : "Câu hỏi hiện tại quá dài, vui lòng rút ngắn lại."
           )
         }
         setStore("loading", true)
@@ -175,7 +175,7 @@ export default function () {
     }
     const data = response.body
     if (!data) {
-      throw new Error("没有返回数据")
+      throw new Error("Không có dữ liệu trả về")
     }
     const reader = data.getReader()
     const decoder = new TextDecoder("utf-8")
