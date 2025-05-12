@@ -62,16 +62,16 @@ export default defineEventHandler(async event => {
     const { messages, key = localKey, temperature, password, model } = body
 
     if (passwordSet && password !== passwordSet) {
-      throw new Error("密码错误，请联系网站管理员。")
+      throw new Error("Sai Mật Khẩu，Vui Lòng Liên Hệ Nhà Cung Cấp")
     }
 
     if (!messages?.length) {
-      throw new Error("没有输入任何文字。")
+      throw new Error("Không có văn bản nào được nhập vào.")
     }
 
     const apiKey = randomKey(splitKeys(key))
 
-    if (!apiKey) throw new Error("没有填写 OpenAI API key，或者 key 填写错误。")
+    if (!apiKey) throw new Error("Chưa Điền OpenAI API Key, Hoặc Điền Key Không Đúng")
 
     const encoder = new TextEncoder()
     const decoder = new TextDecoder()
