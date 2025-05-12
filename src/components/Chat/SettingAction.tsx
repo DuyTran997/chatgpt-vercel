@@ -236,7 +236,7 @@ export default function SettingAction() {
                   })
                 }}
                 icon={roleIcons[actionState.fakeRole]}
-                label="伪装角色"
+                label="Vai Trò Nhân Vật"
               />
               <ActionItem
                 onClick={async () => {
@@ -245,10 +245,10 @@ export default function SettingAction() {
                   setTimeout(() => setActionState("genImg", "normal"), 1000)
                 }}
                 icon={imgIcons[actionState.genImg]}
-                label="导出图片"
+                label=" Lưu Đoạn Hội Thoại Dưới Dạng Ảnh"
               />
               <ActionItem
-                label="导出MD"
+                label="Xuất File MD"
                 onClick={async () => {
                   await exportMD(store.messageList)
                   setActionState("success", "markdown")
@@ -278,7 +278,7 @@ export default function SettingAction() {
                     ? "i-carbon:checkmark animate-bounce text-red-6 dark:text-red"
                     : "i-carbon:clean"
                 }
-                label={actionState.clearSessionConfirm ? "确定" : "清空对话"}
+                label={actionState.clearSessionConfirm ? "Chắc chắn" : "Cuộc Trò Chuyện Rõ Ràng"}
               />
             </div>
           }
@@ -286,12 +286,12 @@ export default function SettingAction() {
           <Match when={actionState.showSetting === "global"}>
             <div class="flex">
               <ActionItem
-                label="导出"
+                label="Xuất File"
                 onClick={exportData}
                 icon="i-carbon:export"
               />
               <ActionItem
-                label="导入"
+                label="Nhập File"
                 onClick={importData}
                 icon="i-carbon:download"
               />
@@ -310,7 +310,7 @@ export default function SettingAction() {
                     lastVisit: Date.now(),
                     settings: {
                       ...defaultEnv.CLIENT_SESSION_SETTINGS,
-                      title: "新的对话"
+                      title: "Cuộc Trò Chuyện Mới"
                     },
                     messages: []
                   })
@@ -318,7 +318,7 @@ export default function SettingAction() {
                   loadSession(sessionID)
                 }}
                 icon="i-carbon:add-alt"
-                label="新的对话"
+                label="Cuộc Trò Chuyện Mới"
               />
               <Show when={store.sessionId !== "index"}>
                 <ActionItem
@@ -334,7 +334,7 @@ export default function SettingAction() {
                       ? "i-carbon:status-resolved dark:text-yellow text-yellow-6"
                       : "i-carbon:link"
                   }
-                  label="复制链接"
+                  label="Sao Chép Liên Kết"
                 />
                 <ActionItem
                   onClick={() => {
@@ -356,7 +356,7 @@ export default function SettingAction() {
                       ? "i-carbon:checkmark animate-bounce text-red-6 dark:text-red"
                       : "i-carbon:trash-can"
                   }
-                  label={actionState.deleteSessionConfirm ? "确定" : "删除对话"}
+                  label={actionState.deleteSessionConfirm ? "Chắc chắn" : "Xóa Cuộc Trò Chuyện"}
                 />
               </Show>
             </div>
