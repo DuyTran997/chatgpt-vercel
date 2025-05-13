@@ -238,6 +238,7 @@ export default function SettingAction() {
         <Switch
           fallback={
             <div class="flex">
+               <Show when={false}>
               <ActionItem
                 onClick={() => {
                   setActionState("fakeRole", k => {
@@ -248,6 +249,7 @@ export default function SettingAction() {
                 icon={roleIcons[actionState.fakeRole]}
                 label="Vai Trò Nhân Vật"
               />
+                  </Show>
               <ActionItem
                 onClick={async () => {
                   setActionState("genImg", "loading")
