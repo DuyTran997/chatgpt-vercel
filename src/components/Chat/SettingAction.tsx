@@ -105,9 +105,9 @@ export default function SettingAction() {
           </div>
           <hr class="my-1 bg-slate-5 bg-op-15 border-none h-1px"></hr>
         </Match>
-        <Match when={actionState.showSetting === "session"}>
-          <div class="<sm:max-h-10em max-h-14em overflow-y-auto">
-            <Show when={store.sessionId !== "index"}>
+        <Match /*when={actionState.showSetting === "session"}*/>
+          <div /*class="<sm:max-h-10em max-h-14em overflow-y-auto"*/>
+            <Show /*when={store.sessionId !== "index"}*/>
               <SettingItem
                 //icon="i-carbon:text-annotation-toggle"
                 //label="Cài Đặt Cuộc Trò Chuyện"
