@@ -74,7 +74,7 @@ export default function SettingAction() {
                     (e.target as HTMLInputElement).value
                   )
                 }}
-              />
+              /> 
             </SettingItem>
             <SettingItem icon="i-carbon:api" label="OpenAI Key">
               <input
@@ -127,8 +127,8 @@ export default function SettingAction() {
               </SettingItem>
             </Show>
             <SettingItem
-              icon="i-carbon:machine-learning-model"
-              label="OpenAI Mẫu"
+              //icon="i-carbon:machine-learning-model"
+              //label="OpenAI Mẫu"
             >
               <Selector
                 class="max-w-150px"
