@@ -132,6 +132,7 @@ export default function SettingAction() {
                 />
               </SettingItem>
             </Show>
+             <Show when={false}>
             <SettingItem
               icon="i-carbon:machine-learning-model"
               label="OpenAI Mẫu"
@@ -158,6 +159,8 @@ export default function SettingAction() {
                 ]}
               />
             </SettingItem>
+                </Show>
+             <Show when={false}>
             <SettingItem icon="i-carbon:data-enrichment" label="Suy Nghĩ Khác Biệt">
               <div class="flex items-center justify-between w-150px">
                 <input
@@ -179,6 +182,7 @@ export default function SettingAction() {
                 </span>
               </div>
             </SettingItem>
+                </Show>
             <SettingItem icon="i-carbon:save-image" label="Ghi Âm Cuộc Trò Chuyện">
               <SwitchButton
                 checked={store.sessionSettings.saveSession}
