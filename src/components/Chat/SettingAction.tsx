@@ -62,6 +62,7 @@ export default function SettingAction() {
       <Switch>
         <Match when={actionState.showSetting === "global"}>
           <div class="<sm:max-h-10em max-h-14em overflow-y-auto">
+            <Show when={false}>
             <SettingItem icon="i-ri:lock-password-line" label="Nhập Mật Khẩu Trang Web">
               <input
                 type="password"
@@ -76,6 +77,7 @@ export default function SettingAction() {
                 }}
               /> 
             </SettingItem>
+              </Show>
             <SettingItem icon="i-carbon:api" label="OpenAI Key">
               <input
                 type="password"
