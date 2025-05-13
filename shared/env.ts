@@ -18,7 +18,7 @@ export const defaultEnv = {
     continuousDialogue: true,
     model: "gpt-4o-mini" as SimpleModel
   },
-  CLIENT_DEFAULT_MESSAGE: `Sáng Tạo Và Phát Hành: DUY TRẦN.
+  CLIENT_DEFAULT_MESSAGE: `
   Ngươi đã bước vào trướng Tào Mạnh Đức, há lại muốn hỏi mà không được đáp? 
   Thiên hạ loạn lạc, kẻ trí phải biết nắm thời cơ, người tài phải biết cầu mưu kế. 
   Có điều chi uẩn khúc trong lòng, cứ nói. 
