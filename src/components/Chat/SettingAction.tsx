@@ -92,8 +92,10 @@ export default function SettingAction() {
                   )
                 }}
               />
-              </Show>
+              
             </SettingItem>
+              </Show>
+            
             <SettingItem icon="i-carbon:keyboard" label="Enter Đê Gửi Tin Nhắn">
               <SwitchButton
                 checked={store.globalSettings.enterToSend}
