@@ -74,8 +74,10 @@ export default function Header() {
                   href="https://github.com/ourongxing/chatgpt-vercel"
                 >
                   <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/stars/ourongxing/chatgpt-vercel?logo=github"
+                    //alt="GitHub forks badge"
+                    //src="https://img.shields.io/github/stars/ourongxing/chatgpt-vercel?logo=github"
+                    src= "https://img.shields.io/youtube/channel/subscribers/UCpslAPh5K9YlEH-vrocz7ww"
+
                   />
                 </a>
                 <a
