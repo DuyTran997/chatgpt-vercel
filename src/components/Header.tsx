@@ -71,7 +71,9 @@ export default function Header() {
                 </span>
                 <a
                   class="ml-2 <sm:hidden"
-                  href="https://github.com/ourongxing/chatgpt-vercel"
+                  //href="https://github.com/ourongxing/chatgpt-vercel"
+                  // fix
+                  href="https://www.youtube.com/@duytranne97"
                 >
                   <img
                     //alt="GitHub forks badge"
