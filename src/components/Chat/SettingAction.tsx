@@ -109,20 +109,20 @@ export default function SettingAction() {
           <div class="<sm:max-h-10em max-h-14em overflow-y-auto">
             <Show when={store.sessionId !== "index"}>
               <SettingItem
-                icon="i-carbon:text-annotation-toggle"
-                label="Cài Đặt Cuộc Trò Chuyện"
+                //icon="i-carbon:text-annotation-toggle"
+                //label="Cài Đặt Cuộc Trò Chuyện"
               >
                 <input
-                  type="text"
-                  value={store.sessionSettings.title}
-                  class="input-box text-ellipsis"
-                  onInput={e => {
-                    setStore(
-                      "sessionSettings",
-                      "title",
-                      (e.target as HTMLInputElement).value
-                    )
-                  }}
+                  //type="text"
+                  //value={store.sessionSettings.title}
+                  //class="input-box text-ellipsis"
+                  //onInput={e => {
+                    //setStore(
+                      //"sessionSettings",
+                      //"title",
+                      //(e.target as HTMLInputElement).value
+                    //)
+                  //}}
                 />
               </SettingItem>
             </Show>
