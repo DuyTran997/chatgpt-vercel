@@ -142,12 +142,12 @@ export default function SettingAction() {
                 }}
                 options={[
                   {
-                    value: "gpt-4o-mini",
-                    label: "gpt-4o-mini"
+                    //value: "gpt-4o-mini",
+                    //label: "gpt-4o-mini"
                   },
                   {
-                    value: "gpt-4o",
-                    label: "gpt-4o"
+                    //value: "gpt-4o",
+                    //label: "gpt-4o"
                   }
                 ]}
               />
