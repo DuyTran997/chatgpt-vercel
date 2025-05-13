@@ -66,7 +66,7 @@ export default function SettingAction() {
             <SettingItem icon="i-ri:lock-password-line" label="Nhập Mật Khẩu Trang Web">
               <input
                 type="password"
-                value={store.globalSettings.password}
+                value={store.globalSettings.password} // <Show when={false}> fix "co che dong mo" doi thanh True neu muon mo lai
                 class="input-box"
                 onInput={e => {
                   setStore(
@@ -78,6 +78,7 @@ export default function SettingAction() {
               /> 
             </SettingItem>
               </Show>
+            <Show when={false}>
             <SettingItem icon="i-carbon:api" label="OpenAI Key">
               <input
                 type="password"
@@ -91,6 +92,7 @@ export default function SettingAction() {
                   )
                 }}
               />
+              </Show>
             </SettingItem>
             <SettingItem icon="i-carbon:keyboard" label="Enter Đê Gửi Tin Nhắn">
               <SwitchButton
