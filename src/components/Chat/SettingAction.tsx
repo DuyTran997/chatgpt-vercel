@@ -149,7 +149,7 @@ export default function SettingAction() {
                     value: "gpt-4o",
                     label: "gpt-4o"
                   }
-                ]}*/
+                ]}
               />
             </SettingItem>
             <SettingItem icon="i-carbon:data-enrichment" label="Suy Nghĩ Khác Biệt">
