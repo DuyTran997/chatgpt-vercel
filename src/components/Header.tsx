@@ -84,11 +84,13 @@ export default function Header() {
                 </a>
                 <a
                   class="ml-2"
-                  href="https://github.com/ourongxing/chatgpt-vercel/fork"
+                  //href="https://github.com/ourongxing/chatgpt-vercel/fork"
+                  // Fix
+                  href="https://www.tiktok.com/@duytranne97?is_from_webapp=1&sender_device=pc"
                 >
                   <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/forks/ourongxing/chatgpt-vercel?logo=github"
+                    //alt="GitHub forks badge"
+                    src="https://img.shields.io/badge/TikTok-Profile-blue?style=for-the-badge&logo=tiktok"
                   />
                 </a>
               </>
