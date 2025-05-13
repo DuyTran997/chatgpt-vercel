@@ -131,7 +131,7 @@ export default function SettingAction() {
               //label="OpenAI Mẫu"
             >
               <Selector
-                class="max-w-150px"
+                /*class="max-w-150px"
                 value={store.sessionSettings.model}
                 onChange={e => {
                   setStore(
@@ -150,7 +150,7 @@ export default function SettingAction() {
                     //label: "gpt-4o"
                   }
                 ]}
-              />
+              />*/
             </SettingItem>
             <SettingItem icon="i-carbon:data-enrichment" label="Suy Nghĩ Khác Biệt">
               <div class="flex items-center justify-between w-150px">
