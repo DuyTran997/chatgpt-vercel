@@ -113,25 +113,25 @@ export default function SettingAction() {
                 label="Cài Đặt Cuộc Trò Chuyện"
               >
                 <input
-                  //type="text"
-                  //value={store.sessionSettings.title}
-                  //class="input-box text-ellipsis"
-                  //onInput={e => {
-                    //setStore(
-                      //"sessionSettings",
-                      //"title",
-                      //(e.target as HTMLInputElement).value
-                    //)
-                  //}}
+                  type="text"
+                  value={store.sessionSettings.title}
+                  class="input-box text-ellipsis"
+                  onInput={e => {
+                    setStore(
+                      "sessionSettings",
+                      "title",
+                      (e.target as HTMLInputElement).value
+                    )
+                  }}
                 />
               </SettingItem>
             </Show>
             <SettingItem
-              //icon="i-carbon:machine-learning-model"
-              //label="OpenAI Mẫu"
+              icon="i-carbon:machine-learning-model"
+              label="OpenAI Mẫu"
             >
               <Selector
-                /*class="max-w-150px"
+                class="max-w-150px"
                 value={store.sessionSettings.model}
                 onChange={e => {
                   setStore(
@@ -142,12 +142,12 @@ export default function SettingAction() {
                 }}
                 options={[
                   {
-                    //value: "gpt-4o-mini",
-                    //label: "gpt-4o-mini"
+                    value: "gpt-4o-mini",
+                    label: "gpt-4o-mini"
                   },
                   {
-                    //value: "gpt-4o",
-                    //label: "gpt-4o"
+                    value: "gpt-4o",
+                    label: "gpt-4o"
                   }
                 ]}*/
               />
