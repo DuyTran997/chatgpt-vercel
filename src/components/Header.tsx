@@ -63,8 +63,8 @@ export default function Header() {
             when={iconTitle().title}
             fallback={
               <>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 
-                  dark:to-red-700 to-red-700 text-base sm:text-lg md:text-xl font-extrabold whitespace-nowrap">
+               <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-600 
+                 to-red-700 text-base sm:text-lg md:text-xl font-extrabold whitespace-nowrap">
                 Mưu Lược Tào Tháo
                 </span>
                 <a
