@@ -63,10 +63,10 @@ export default function Header() {
             when={iconTitle().title}
             fallback={
               <>
-                <span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 dark:to-red-700 to-red-700 mr-1">
+                <span class="text-transparent text-sm font-extrabold bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 dark:to-red-700 to-red-700 mr-1">
                   Mưu Lược
                 </span>
-                <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
+                <span class="ml-1 text-sm font-extrabold text-slate-7 dark:text-slate">
                   Tào Tháo
                 </span>
                 <a
