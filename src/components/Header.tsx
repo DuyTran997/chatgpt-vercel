@@ -1,4 +1,5 @@
 import logo from "~/icons/CaocaoLogo.png"   // ?raw
+import coverImage from "~/public/TaoThaoJPG.jpg"
 import ThemeToggle from "./ThemeToggle"
 import { RootStore, loadSession } from "~/store"
 import { Show, createMemo } from "solid-js"
@@ -33,25 +34,33 @@ export default function Header() {
   const iconTitle = createMemo(() => splitEmoji(store.sessionSettings.title))
   return (
     <>
-      <div
-        id="logo"
-        class="pl-1em cursor-pointer inline-block"
-        onClick={() => {
-          if (store.sessionId && store.sessionId !== "index") {
-            navigate("/", { replace: true })
-            loadSession("index")
-          }
-        }}
-      >
-        <Show
-          when={iconTitle().icon}
-          //fallback={<div class="w-8em h-8em" innerHTML={logo} />}
-          // Fix to use PNJ
-          fallback={<img src={logo} alt="Logo" class="w-8em h-8em" />}
-        >
-          <div class="text-7em h-1em mb-8">{iconTitle().icon}</div>
-        </Show>
-      </div>
+ <div class="relative w-full h-32 sm:h-48 md:h-56 lg:h-64 mb-4">
+  {/* Ảnh cover nền phía sau */}
+  <img
+    src={coverImage}
+    alt="Cover"
+    class="absolute inset-0 w-full h-full object-cover"
+  />
+  
+  {/* Logo nằm trên ảnh */}
+  <div
+    id="logo"
+    class="absolute left-4 bottom-4 cursor-pointer"
+    onClick={() => {
+      if (store.sessionId && store.sessionId !== "index") {
+        navigate("/", { replace: true })
+        loadSession("index")
+      }
+    }}
+  >
+    <Show
+      when={iconTitle().icon}
+      fallback={<img src={logo} alt="Logo" class="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 drop-shadow-md" />}
+    >
+      <div class="text-5xl sm:text-6xl mb-2 drop-shadow-md">{iconTitle().icon}</div>
+    </Show>
+  </div>
+</div>
       <header class="px-4 py-2 sticky top-0 z-99 flex justify-between items-center">
         <div
           class="flex items-center text-2xl cursor-pointer"
