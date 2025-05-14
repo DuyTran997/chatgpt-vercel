@@ -70,7 +70,7 @@ export default function Header() {
                </span>
                <div class="text-xs sm:text-sm font-medium text-transparent bg-clip-text bg-gradient-to-r 
                from-yellow-600 to-red-600 dark:from-yellow-300 dark:to-red-500 whitespace-nowrap">
-               Chế tác: Duy Trần
+               Powered By Duy Trần
               </div>
               </div>
                
