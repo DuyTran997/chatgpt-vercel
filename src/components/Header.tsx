@@ -68,7 +68,7 @@ export default function Header() {
                 Mưu Lược Tào Tháo
                 </span>
                 <a
-                  class="ml-2 text-base sm:text-lg md:text-xl <sm:hidden"
+                  class="ml-2 text-base sm:text-lg md:text-xl"
                   //href="https://github.com/ourongxing/chatgpt-vercel"
                   // fix
                   href="https://www.youtube.com/@duytranne97"
@@ -77,7 +77,7 @@ export default function Header() {
                     //alt="GitHub forks badge"
                     //src="https://img.shields.io/github/stars/ourongxing/chatgpt-vercel?logo=github"
                     src= "https://img.shields.io/youtube/channel/subscribers/UCpslAPh5K9YlEH-vrocz7ww"
-
+                    alt="YouTube Subscribers"
                   />
                 </a>
                 <a
