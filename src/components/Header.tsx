@@ -63,14 +63,14 @@ export default function Header() {
             when={iconTitle().title}
             fallback={
               <>
-                <span class="text-transparent text-sm font-extrabold bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 dark:to-red-700 to-red-700 mr-1">
+                <span class="text-transparent text-base sm:text-lg md:text-xl font-extrabold bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 dark:to-red-700 to-red-700 mr-1">
                   Mưu Lược
                 </span>
-                <span class="ml-1 text-sm font-extrabold text-slate-7 dark:text-slate">
+                <span class="ml-1 text-base sm:text-lg md:text-xl font-extrabold text-slate-7 dark:text-slate">
                   Tào Tháo
                 </span>
                 <a
-                  class="ml-2 text-sm <sm:hidden"
+                  class="ml-2 text-base sm:text-lg md:text-xl <sm:hidden"
                   //href="https://github.com/ourongxing/chatgpt-vercel"
                   // fix
                   href="https://www.youtube.com/@duytranne97"
@@ -83,7 +83,7 @@ export default function Header() {
                   />
                 </a>
                 <a
-                  class="ml-2 text-sm"
+                  class="ml-2 text-base sm:text-lg md:text-xl"
                   //href="https://github.com/ourongxing/chatgpt-vercel/fork"
                   // Fix
                   href="https://www.tiktok.com/@duytranne97?is_from_webapp=1&sender_device=pc"
