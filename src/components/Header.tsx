@@ -63,11 +63,9 @@ export default function Header() {
             when={iconTitle().title}
             fallback={
               <>
-                <span class="text-transparent text-base sm:text-lg md:text-xl font-extrabold bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 dark:to-red-700 to-red-700 mr-1">
-                  Mưu Lược
-                </span>
-                <span class="ml-1 text-base sm:text-lg md:text-xl font-extrabold text-slate-7 dark:text-slate">
-                  Tào Tháo
+                <span class="text-transparent bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 
+                  dark:to-red-700 to-red-700 text-base sm:text-lg md:text-xl font-extrabold whitespace-nowrap">
+                Mưu Lược Tào Tháo
                 </span>
                 <a
                   class="ml-2 text-base sm:text-lg md:text-xl <sm:hidden"
