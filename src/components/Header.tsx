@@ -66,6 +66,10 @@ export default function Header() {
                <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-600 
                  to-red-700 text-base sm:text-lg md:text-xl font-extrabold whitespace-nowrap">
                 Mưu Lược Tào Tháo
+                 </span>
+                <div class="text-xs sm:text-sm font-medium text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-red-600 dark:from-yellow-300 dark:to-red-500 ml-1 whitespace-nowrap">
+                Chế tác: Duy Trần
+                </div>
                 </span>
                 <a
                   class="ml-2 text-base sm:text-lg md:text-xl"
