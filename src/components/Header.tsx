@@ -70,7 +70,7 @@ export default function Header() {
                   Tào Tháo
                 </span>
                 <a
-                  class="ml-2 <sm:hidden"
+                  class="ml-2 text-sm <sm:hidden"
                   //href="https://github.com/ourongxing/chatgpt-vercel"
                   // fix
                   href="https://www.youtube.com/@duytranne97"
@@ -83,7 +83,7 @@ export default function Header() {
                   />
                 </a>
                 <a
-                  class="ml-2"
+                  class="ml-2 text-sm"
                   //href="https://github.com/ourongxing/chatgpt-vercel/fork"
                   // Fix
                   href="https://www.tiktok.com/@duytranne97?is_from_webapp=1&sender_device=pc"
