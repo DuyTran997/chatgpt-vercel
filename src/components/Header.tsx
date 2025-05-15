@@ -55,7 +55,7 @@ export default function Header() {
   >
     <Show
       when={iconTitle().icon}
-      fallback={<img src={logo} alt="Logo" class="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 drop-shadow-md" />}
+      fallback={<img src={logo} alt="Logo" class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 drop-shadow-xl" />}
     >
       <div class="text-5xl sm:text-6xl mb-2 drop-shadow-md">{iconTitle().icon}</div>
     </Show>
