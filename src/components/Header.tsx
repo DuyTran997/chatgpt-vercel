@@ -1,5 +1,5 @@
 import logo from "~/icons/CaocaoLogo.png"   // ?raw
-import coverImage from "~/icons/TaoThaoJPG.jpg"
+import coverImage from "~/icons/TaoThaoBanner.png"
 import ThemeToggle from "./ThemeToggle"
 import { RootStore, loadSession } from "~/store"
 import { Show, createMemo } from "solid-js"
